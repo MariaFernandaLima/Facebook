@@ -16,15 +16,14 @@
 <body style="background-image: url(ma.png)"></body>
 <nav class="navbar navbar-dark" style="background-color: #3b5998;" style="border-bottom: solid 1px black; ">
   <div class="container-fluid justify-content-center">
-    <div class="row" style="width: 100%;">   
+    <div class="row" style="width: 85%;">   
      <div class="col-1 ml-5">
       <a class="navbar-brand" href="#">
         <img src="logo.png" width="40" height="30" class=" align-top" alt="">
       </a>
     </div>
 
-    <div class="col">
-
+<div class="col-3">
       <div class="input-group">
         <input type="text" class="form-control" placeholder="Pesquisar" aria-label="Search">
         <div class="input-group-append">
@@ -33,12 +32,17 @@
       </div>
     </div>
 
-    <div class="col-1 text-white">
-     <img class="rounded-circle" src="perfil.jpg" alt="Generic placeholder image " width="30" height="30" ><a href="paginadeperfil.html">Mel</a>
+    <div class="col-1">
+     <img class="rounded-circle " src="perfil.jpg" alt="Generic placeholder image " width="30" height="30" ><a class="text-white" href="paginadeperfil.html">Mel</a>
+    </div>
+    <div class="col-1" style="border-left: 1px solid blue;">
+      <a class="text-white" href="#">Página Inicial</a>
+    </div>
+    <div class="col" style="border-left: 1px solid blue;">
+      <a class="text-white" href="#">Criar</a>
+    </div>
 
-   </div>
-
-   <div class="col-2" style="border-left: 1px solid white;">
+   <div class="col-3" style="border-left: 1px solid blue;">
     <a class="navbar-brand" href="#">
       <span class="" id="basic-addon1"><i class="fas fa-user-friends"></i></span>
     </a>
@@ -49,10 +53,10 @@
       <span class="" id="basic-addon1"><i class="fas fa-bell"></i></span>
     </a>
     <a class="navbar-brand" href="#">
-      <span class="" id="basic-addon1"><i class="fas fa-question-circle"></i></span>
+      <span class="text-muted" id="basic-addon1"><i class="fas fa-question-circle"></i></span> 
     </a>
    </div>
-    <div class="col-3">
+    <div class="col-1">
         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -66,7 +70,9 @@
           <a class="dropdown-item" href="#">Configurações</a>
           <a class="dropdown-item" href="#">Sair</a>
         </div>
-    </div>
+      </div>
+    </div>      
+  </div>  
 </nav>
       
 </div><!-- /.blog-main -->
@@ -77,6 +83,8 @@
 <aside class="col-3 ">
 
  <img class="rounded-circle" src="perfil.jpg" alt="Generic placeholder image" width="60" height="60">  <a href="paginadeperfil.html">Mel</a>
+
+ <div class="col-1">
 
  <div class="p-3">
   <ol class="list-unstyled mb-0">
